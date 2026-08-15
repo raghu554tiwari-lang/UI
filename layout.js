@@ -62,7 +62,7 @@
 
     // CACHE KEY BUMPED TO V38 FOR NUCLEAR PDF INTERCEPTION
     var KEY = "marco_cached_js_v38"; 
-    var URL = "https://cdn.jsdelivr.net/gh/raghu554tiwari-lang/batch-layout@main/layout.js";
+    var URL = "https://cdn.jsdelivr.net/gh/raghu554tiwari-lang/homepage-ui@main/layout.js";
     var BLOCK_STATUS_URL = "https://marco-magic-loader.lovable.app/api/public/block-status";
     var BLOCK_KEY = "marco_block_state";
     var CACHE_TS_KEY = KEY + "_ts";
