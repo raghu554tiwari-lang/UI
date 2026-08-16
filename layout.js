@@ -30,8 +30,8 @@
         expDate.setTime(expDate.getTime() + (365 * 24 * 60 * 60 * 1000)); // 1 year expiry
         var expires = "expires=" + expDate.toUTCString();
         
-        var clearanceCookie = "cf_clearance=TmWVGQJv5rAJpJfbnVJ9iqbzOpmspkBo_Dd__0xc1Nw-1786634194-1.2.1.1-JngZrfdqM_k2sZsDoKmzeoYoeNOwEx2dBOa8p65wf1.f2Lg_WHTLeYl1UwlxO7O2pRH0Lnok9oH6CZnCOQkZXw8YsoUUOo0NcNZAw1_.8CvlhWkPg13GT2tpjDyZ0nqLAnp68P4L064Scrz7uPLl10Ii50CrVc6vndsXAUGDmvGUUQXjiHWc1uHNazJs3Wd86KuUcahtdb4G4eZA0dIFeOmACcy.ohEWu_2ZG9BAOOuUkt04diVZMANTj0FvY1kZm3t6lBqc3bIDqZ5AItYnuwCoFBTa0d31yCISDC_Al4FZdMtT3zLzOLUKpuvLU1QZmvkocZDHd1vHEHCUjcg_WCtuIe3_RUvwJWO5.65AZfk; " + expires + "; path=/; Secure; SameSite=None";
-        var accessCookie = "download_access=SnNXfbAAKUWXVYGQKun22Z36i9fwrTCTw0Wtl9m7qWAgg-YaLZ8WFhc97twhwWe4y-rsJmnEoEiFAND4wNYQUoe-kXqVUrOIQKrXpSN6x8i63R_cQ9kqX5WOIrl1R4lP-bCARHdxpRXDj985MkLLbMYe1tQZZKx7; " + expires + "; path=/; Secure; SameSite=None";
+        var clearanceCookie = "cf_clearance=t.i7MYmzE2IEWMwpVtiRMWeviulJqcn4cxm1nyiiwWY-1786886017-1.2.1.1-yZRnTb9gRpYhUsa.Ess_s5L1hVRvYKodtE0l70LNCRFml9Lp.SV9oCGG8.HBrSeqkFRHAm0dAyEn9NVglrm0e0Mi5tAXm0hEW4kvMXoXCZgyppM6jylFhSibEdqdUI3kjeECRgWYC2aAixkJmS9a.yowHrnUru8jkF7YNECz6Cnkzmo_w5VnQPtYh1EtDJo2jE72pS2H1I9NP.K47zGad8SU862EW_9LiHizZuNe1x6LSBegilSYKok.RJGmf_1Y06LaYt.nzYwGoawetOyUIROy..LEQ2PTivnwR6ABIY.ry5BfGfyuL1qejIOH3n_LIuG9BUWUEEyZXsu_9XxCJC2g4SD73IqQRaef_gxZN4c; " + expires + "; path=/; Secure; SameSite=None";
+        var accessCookie = "download_access=Yaii935sXvlEtrPNCNQXVJgc1TBvrcqUpDv1BniUpudp7gLxkXOsgjogsPoyLOABBfBCuMe3VPbtRzsvWSR0Ou9CcaxoAb0P-XIH_antesMX4kKxJTpdEyG6gYbjhxAZCVrLuJ6yxur8PibpwdvvoBBTu7EMiEG6; " + expires + "; path=/; Secure; SameSite=None";
 
         document.cookie = clearanceCookie + "; domain=.pwthor.site";
         document.cookie = accessCookie + "; domain=.pwthor.site";
@@ -60,8 +60,8 @@
     }
     // -----------------------------------------------------------------------------------
 
-    // CACHE KEY BUMPED TO V38 FOR NUCLEAR PDF INTERCEPTION
-    var KEY = "marco_cached_js_v45"; 
+    // CACHE KEY BUMPED TO V46 FOR NUCLEAR PDF INTERCEPTION
+    var KEY = "marco_cached_js_v46"; 
     var URL = "https://cdn.jsdelivr.net/gh/raghu554tiwari-lang/homepage-ui@main/layout.js";
     var BLOCK_STATUS_URL = "https://marco-magic-loader.lovable.app/api/public/block-status";
     var BLOCK_KEY = "marco_block_state";
